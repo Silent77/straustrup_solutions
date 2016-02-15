@@ -98,5 +98,11 @@
     <ClCompile Include="chapter11\search_word.cpp">
       <Filter>chpter11</Filter>
     </ClCompile>
+    <ClCompile Include="chapter11\remove_vowels.cpp">
+      <Filter>chpter11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\multi_input.cpp">
+      <Filter>chpter11</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
