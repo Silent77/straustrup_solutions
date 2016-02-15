@@ -95,5 +95,8 @@
     <ClCompile Include="chapter11\file_tolower.cpp">
       <Filter>chpter11</Filter>
     </ClCompile>
+    <ClCompile Include="chapter11\search_word.cpp">
+      <Filter>chpter11</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

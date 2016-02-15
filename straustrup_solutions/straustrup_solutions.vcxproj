@@ -105,7 +105,10 @@
     <ClCompile Include="chapter10\temps.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="chapter11\file_tolower.cpp" />
+    <ClCompile Include="chapter11\file_tolower.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="chapter11\search_word.cpp" />
     <ClCompile Include="chapter11\test_output.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
