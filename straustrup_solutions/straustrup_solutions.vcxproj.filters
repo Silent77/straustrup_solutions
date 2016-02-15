@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="chapter9">
+      <UniqueIdentifier>{d13b4788-6210-4ea2-b17a-12b07a97862e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter10">
+      <UniqueIdentifier>{62030696-53d6-4fc3-b1d8-733e47a1fd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chpter11">
+      <UniqueIdentifier>{c40c8a63-cd02-4e3f-bc60-77c5c3cbe761}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter8\Name_pairs.h">
+      <Filter>chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="std_lib_facilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10\iohelper.h">
+      <Filter>chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10\temps.h">
+      <Filter>chapter10</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="straustrup_solutions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator02buggy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8\Name_pairs.cpp">
+      <Filter>chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8\use_namepairs.cpp">
+      <Filter>chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="use_books.cpp">
+      <Filter>chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10\task10.cpp">
+      <Filter>chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10\temps.cpp">
+      <Filter>chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10\sumint.cpp">
+      <Filter>chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10\store_temp.cpp">
+      <Filter>chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10\file_str_concat.cpp">
+      <Filter>chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\test_output.cpp">
+      <Filter>chpter11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\file_tolower.cpp">
+      <Filter>chpter11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
