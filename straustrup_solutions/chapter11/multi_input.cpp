@@ -6,7 +6,7 @@ int main()
 
 	cout << "Enter numbers:\n";
 
-	cin.unsetf(ios::dec);
+	cin.setf(ios::hex);
 	while ((cin >> num))
 		cout << dec << "Decimal: " << num << endl;
 

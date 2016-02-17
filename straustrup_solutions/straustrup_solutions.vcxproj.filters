@@ -19,12 +19,24 @@
     <Filter Include="chapter10">
       <UniqueIdentifier>{62030696-53d6-4fc3-b1d8-733e47a1fd7b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="chpter11">
+    <Filter Include="common">
+      <UniqueIdentifier>{225ecb43-854e-4fc3-bf69-0212f2f6e093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter11">
       <UniqueIdentifier>{c40c8a63-cd02-4e3f-bc60-77c5c3cbe761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter12">
+      <UniqueIdentifier>{3ee09c78-7445-4833-bea8-cd5a39285f37}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="common\Graphics.htm">
+      <Filter>common</Filter>
+    </None>
+    <None Include="common\Makefile">
+      <Filter>common</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -47,6 +59,27 @@
     </ClInclude>
     <ClInclude Include="chapter10\temps.h">
       <Filter>chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="Punct_stream.h">
+      <Filter>chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Graph.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\GUI.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Point.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Simple_window.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\std_lib_facilities.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Window.h">
+      <Filter>common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -90,19 +123,43 @@
       <Filter>chapter10</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\test_output.cpp">
-      <Filter>chpter11</Filter>
+      <Filter>chapter11</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\file_tolower.cpp">
-      <Filter>chpter11</Filter>
+      <Filter>chapter11</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\search_word.cpp">
-      <Filter>chpter11</Filter>
+      <Filter>chapter11</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\remove_vowels.cpp">
-      <Filter>chpter11</Filter>
+      <Filter>chapter11</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\multi_input.cpp">
-      <Filter>chpter11</Filter>
+      <Filter>chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="Punct_stream.cpp">
+      <Filter>chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\file_vocab.cpp">
+      <Filter>chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\txt2bin.cpp">
+      <Filter>chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Graph.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\GUI.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Simple_window.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Window.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\sample_window.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
