@@ -232,13 +232,13 @@ void Rectangle::draw_lines() const
 }
 
 //------------------------------------------------------------------------------
-
+/* already defined in .h 
 Circle::Circle(Point p, int rr)    // center and radius
 :r(rr)
 {
     add(Point(p.x-r,p.y-r));       // store top-left corner
 }
-
+*/
 //------------------------------------------------------------------------------
 
 Point Circle::center() const
@@ -385,7 +385,7 @@ bool can_open(const string& s)
 // check if a file named s exists and can be opened for reading
 {
     ifstream ff(s.c_str());
-    return ff;
+    return static_cast<bool>(ff);
 }
 
 //------------------------------------------------------------------------------

@@ -5,6 +5,21 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "straustrup_solutions", "straustrup_solutions\straustrup_solutions.vcxproj", "{79A3E03E-9AA3-4D43-89C7-248EA3D29BFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task15", "straustrup_solutions\task15.vcxproj", "{47D167FB-8277-4122-8506-AA91940500E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter15", "Chapter15", "{D6D602CF-6910-45AC-9213-C73AEA2B3605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{983C07B2-B102-4D1A-8D41-D8665F088DFA}"
+	ProjectSection(SolutionItems) = preProject
+		straustrup_solutions\common\Graph.cpp = straustrup_solutions\common\Graph.cpp
+		straustrup_solutions\common\Graph.h = straustrup_solutions\common\Graph.h
+		straustrup_solutions\common\GUI.h = straustrup_solutions\common\GUI.h
+		straustrup_solutions\common\Point.h = straustrup_solutions\common\Point.h
+		straustrup_solutions\common\Simple_window.h = straustrup_solutions\common\Simple_window.h
+		straustrup_solutions\common\Window.cpp = straustrup_solutions\common\Window.cpp
+		straustrup_solutions\common\Window.h = straustrup_solutions\common\Window.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,8 +30,15 @@ Global
 		{79A3E03E-9AA3-4D43-89C7-248EA3D29BFB}.Debug|Win32.Build.0 = Debug|Win32
 		{79A3E03E-9AA3-4D43-89C7-248EA3D29BFB}.Release|Win32.ActiveCfg = Release|Win32
 		{79A3E03E-9AA3-4D43-89C7-248EA3D29BFB}.Release|Win32.Build.0 = Release|Win32
+		{47D167FB-8277-4122-8506-AA91940500E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47D167FB-8277-4122-8506-AA91940500E9}.Debug|Win32.Build.0 = Debug|Win32
+		{47D167FB-8277-4122-8506-AA91940500E9}.Release|Win32.ActiveCfg = Release|Win32
+		{47D167FB-8277-4122-8506-AA91940500E9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47D167FB-8277-4122-8506-AA91940500E9} = {D6D602CF-6910-45AC-9213-C73AEA2B3605}
 	EndGlobalSection
 EndGlobal

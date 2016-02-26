@@ -3,7 +3,7 @@
 /* sumint.cpp Calculate sum of integers in file. Ignore other data      */
 /************************************************************************/
  
-#include "..\std_lib_facilities.h"
+#include "../common/std_lib_facilities.h"
 
 
 int main()

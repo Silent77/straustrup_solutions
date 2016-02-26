@@ -3,7 +3,7 @@
 /* Search file for word and print line and position where the word is found*/
 /***************************************************************************/
 
-#include "..\std_lib_facilities.h"
+#include "std_lib_facilities.h"
 
 int main()
 {

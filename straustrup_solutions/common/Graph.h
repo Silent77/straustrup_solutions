@@ -7,8 +7,8 @@
 #ifndef GRAPH_GUARD
 #define GRAPH_GUARD 1
 
-#include <fl_draw.H>
-#include <Fl_Image.H>
+#include <FL/fl_draw.H>
+#include <FL/Fl_Image.H>
 #include "Point.h"
 #include "std_lib_facilities.h"
 
@@ -210,7 +210,7 @@ struct Rectangle : Shape {
 
     int height() const { return h; }
     int width() const { return w; }
-private:
+protected:
     int h;    // height
     int w;    // width
 };
@@ -292,7 +292,7 @@ struct Circle : Shape {
 
 	void set_radius(int rr) { set_point(0,Point(center().x-rr,center().y-rr)); r=rr;  }
 	int radius() const { return r; }
-private:
+protected:
 	int r;
 };
 

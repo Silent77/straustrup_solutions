@@ -4,7 +4,7 @@
 /************************************************************************/
 
 #include "..\Punct_stream.h"
-#include <map>;
+#include <map>
 
 int main()
 {

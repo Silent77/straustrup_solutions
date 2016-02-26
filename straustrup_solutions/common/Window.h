@@ -7,8 +7,8 @@
 #ifndef WINDOW_GUARD
 #define WINDOW_GUARD
 
-#include <Fl.H>
-#include <Fl_Window.H>
+#include <FL/Fl.H>
+#include <FL/Fl_Window.H>
 #include "std_lib_facilities.h"
 #include "Point.h"
 
@@ -55,7 +55,7 @@ namespace Graph_lib
 
 //------------------------------------------------------------------------------
 
-           int gui_main(); // invoke GUI library's main event loop
+     int gui_main(); // invoke GUI library's main event loop
     inline int x_max() { return Fl::w(); } // width of screen in pixels
     inline int y_max() { return Fl::h(); } // height of screen in pixels
 

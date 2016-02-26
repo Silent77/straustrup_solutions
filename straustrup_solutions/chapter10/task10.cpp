@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
-#include "../std_lib_facilities.h"
+#include "std_lib_facilities.h"
 
 struct Point
 {

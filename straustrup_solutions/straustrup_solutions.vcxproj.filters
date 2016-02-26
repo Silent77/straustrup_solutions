@@ -28,6 +28,12 @@
     <Filter Include="chapter12">
       <UniqueIdentifier>{3ee09c78-7445-4833-bea8-cd5a39285f37}</UniqueIdentifier>
     </Filter>
+    <Filter Include="chapter13">
+      <UniqueIdentifier>{f72e23ff-c792-436c-a03c-5a908b4491fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter14">
+      <UniqueIdentifier>{43ed34b4-d8e8-4070-998f-b7606ab1320c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -80,6 +86,9 @@
     </ClInclude>
     <ClInclude Include="common\Window.h">
       <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter13\graph_add.h">
+      <Filter>chapter13</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -158,8 +167,41 @@
     <ClCompile Include="common\Window.cpp">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="chapter12\sample_window.cpp">
+    <ClCompile Include="chapter12\task12.cpp">
+      <Filter>chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\exercise2-3.cpp">
+      <Filter>chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\exercise4.cpp">
+      <Filter>chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\olympic_rigns.cpp">
+      <Filter>chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\superellips.cpp">
+      <Filter>chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter13\task13.cpp">
+      <Filter>chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter13\ark.cpp">
+      <Filter>chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter13\graph_add.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter13\mosaic.cpp">
+      <Filter>chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter14\task14.cpp">
+      <Filter>chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter14\smiles.cpp">
+      <Filter>chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter14\ex4-7.cpp">
+      <Filter>chapter14</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
