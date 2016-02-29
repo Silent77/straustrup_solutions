@@ -11,12 +11,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="chapter15\useperson.cpp" />
     <ClCompile Include="common\Graph.cpp" />
     <ClCompile Include="common\GUI.cpp" />
     <ClCompile Include="common\Simple_window.cpp" />
     <ClCompile Include="common\Window.cpp" />
     <ClCompile Include="person.cpp" />
-    <ClCompile Include="task_chptr15.cpp" />
+    <ClCompile Include="task_chptr15.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter15\person.h" />
@@ -52,7 +55,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\fltk;C:\Users\TRex\Source\Repos\straustrup_solutions\straustrup_solutions\common;$(IncludePath)</IncludePath>
+    <IncludePath>C:\fltk;C:\Users\silent\Source\Repos\straustrup_solutions\straustrup_solutions\common;$(IncludePath)</IncludePath>
     <LibraryPath>C:\fltk\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
